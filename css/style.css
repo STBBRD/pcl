@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: "Microsoft Yahei UI"
+}
+
+.banner{
+	background: url("../images/banner.png") no-repeat center;
+	height: 840px
+}
+
+.banner-info{
+	padding-top: 170px;
+	padding-right: 200px;
+	float: right;
+	color: #FFFFFF;
+	text-align: right
+}
+
+.banner-info a{
+	border: 2px solid #009FFF;
+  	color: #009FFF;
+  	text-decoration: none;
+  	font-size: 14px;
+  	font-weight: bold;
+  	padding: 11px 37px;
+  	border-radius: 50px;
+}
+
+.banner-info h3{
+	padding-bottom: 60px;
+	padding-top: 40px;
+	font-size: 30px
+}
+
+.banner-info a:hover {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.block{
+	margin: 20px;
+	border: 2px;
+	border-style: ridge;
+	padding: 40px;
+	height: 200px
+}
+
+.footer{
+	background: #363636;
+	text-align: center;
+	font-family: "等线 Light";
+	color: #FFFFFF;
+	height: 100px;
+	padding: 10px
+}
+
+.footer a{
+	color: #D4D4D4;
+	text-decoration: none
+}
+
+.footer a:hover{
+	color: #454545
+}
+
+#download h3{
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.7em;
+	text-align: right
+}
+
+#download p{
+	margin: 50px 0px 20px 0px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.7em;
+	text-align: right
+}
+
+#download h3 span{
+	color: #FFFFFF;
+	background: #008FFF
+}
+
+#download-right{
+	float: right
+}
+
+#download-left div{
+	background-color: #009FFF;
+	margin: 20px;
+	width: 30em;
+	height: 4em
+}
+
+#download-left div a{
+	font-size: 1.8em; 
+	color: white; 
+	position: absolute;
+	margin: 0.44em;
+	text-decoration: none
+}
+
+#download-left div a:hover{
+	text-decoration: underline
+}
